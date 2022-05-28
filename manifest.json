@@ -2,7 +2,7 @@
     "theme_color": "#f63597",
     "background_color": "#62f0de",
     "display": "browser",
-    "scope": "/",
+    "scope": "",
     "start_url": "https://al01z.github.io/zti_pwa/",
     "name": "Aloiz Some Blog",
     "short_name": "AloizAPP",
