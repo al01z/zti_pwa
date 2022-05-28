@@ -3,7 +3,7 @@
     "background_color": "#62f0de",
     "display": "browser",
     "scope": "/",
-    "start_url": "/https://al01z.github.io/zti_pwa/",
+    "start_url": "https://al01z.github.io/zti_pwa/",
     "name": "Aloiz Some Blog",
     "short_name": "AloizAPP",
     "description": "Jakis blog o czyms - prjekt wsb",
