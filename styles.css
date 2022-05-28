@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    background-image: url('https://szkoleniacss.com/wp-content/uploads/2019/09/kawa-dzialanie-960x540.jpg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+ 
+h1 {
+    background-color: rgba(255, 255, 255, 0.18);
+    height: 80vh;
+    text-align: center;
+    line-height: 80vh;
+    font-size: 38px;
+}
+ 
+footer {
+    padding: 40px;
+    background-color: rgb(83, 52, 9);
+    color: white;
+    text-align: center;
+}
+ 
+main {
+    display: flex;
+    flex-direction: column;
+}
+ 
+h3 {
+    text-align: center;
+    padding: 20px;
+}
+ 
+p {
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+footer p {
+    text-align:center;
+}
+ 
+.img1 {
+    background-image: url('https://farm1.staticflickr.com/578/23396685820_b4d75335b4_o.jpg');
+    background-size: cover;
+    background-position: 65% center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width:768px) {
+    main {
+        flex-wrap:wrap;
+        flex-direction:row;
+    } 
+
+    .coffee {
+        width:50%;
+    }
+
+}
