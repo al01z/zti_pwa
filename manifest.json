@@ -4,9 +4,9 @@
     "display": "browser",
     "scope": "/",
     "start_url": "//zti_pwa/",
-    "name": "Aloiz Some Blog",
-    "short_name": "AloizAPP",
-    "description": "Jakis blog o czyms - prjekt wsb",
+    "name": "CatUtopia",
+    "short_name": "CatUtopia",
+    "description": "Your daily dose of cats",
     "icons": [
         {
             "src": "./manifest/icon-192x192.png",

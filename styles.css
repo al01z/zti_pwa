@@ -5,32 +5,37 @@
 }
  
 header {
-    background-image: url('https://szkoleniacss.com/wp-content/uploads/2019/09/kawa-dzialanie-960x540.jpg');
+    background-color: #00D2B3;
     background-size: cover;
     background-position: 65% center;
     background-repeat: no-repeat;
-    height: 80vh;
-    margin-bottom: 10px;
+    height: 7vh;
 }
  
 h1 {
     background-color: rgba(255, 255, 255, 0.18);
-    height: 80vh;
+    height: 7vh;
     text-align: center;
-    line-height: 80vh;
-    font-size: 38px;
+    line-height: 7vh;
+    font-size: 5vh;
 }
  
 footer {
-    padding: 40px;
+    padding: 1vh;
     background-color: rgb(83, 52, 9);
     color: white;
     text-align: center;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+
 }
  
 main {
     display: flex;
     flex-direction: column;
+    width:100%;
+
 }
  
 h3 {
@@ -39,28 +44,46 @@ h3 {
 }
  
 p {
-    padding: 20px;
+    padding: 1vh;
     line-height: 1.5;
     text-align: justify;
+}
+
+button {
+    background: #9DC6D8;
+    border-style: none;
+    padding:10px;
+    margin: 10px;
+    border-radius: 10px;    
+}
+
+button:hover {
+    background:#00D2B3;
 }
 
 footer p {
     text-align:center;
 }
- 
+.cat {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .img1 {
-    background-image: url('https://farm1.staticflickr.com/578/23396685820_b4d75335b4_o.jpg');
     background-size: cover;
     background-position: 65% center;
     background-repeat: no-repeat;
     width: 100%;
     height: 200px;
+    margin:auto;
 }
 
 @media (min-width:768px) {
     main {
         flex-wrap:wrap;
         flex-direction:row;
+        width:100%;
     } 
 
     .coffee {
